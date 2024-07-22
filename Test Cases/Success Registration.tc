@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Success Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ed1d8bf-1e13-4ebb-b023-77f4ee94d9fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50a5653a-d182-4af7-bad7-f84a3f2b4e0a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'nama Toko2'</defaultValue>
+      <description></description>
+      <id>50a5653a-d182-4af7-bad7-f84a3f2b4e0a</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>
