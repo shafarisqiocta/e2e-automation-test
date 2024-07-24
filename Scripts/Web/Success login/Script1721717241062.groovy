@@ -21,19 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Object Repository/registrasi/a_ingin mencoba, daftar'))
+WebUI.setText(findTestObject('login/input_email'), 'bunga24@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/registrasi/input_nama toko_name'), nama_toko)
+WebUI.setText(findTestObject('login/input_password'), 'password')
 
-WebUI.setText(findTestObject('Object Repository/registrasi/input_email_email'), 'risqishafa@gmail.com')
+WebUI.click(findTestObject('login/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registrasi/input_password_password'), '9NLz+4tGZcQ=')
-
-WebUI.click(findTestObject('Object Repository/registrasi/button_password_chakra-button css-1t6k0fn'))
-
-WebUI.setText(findTestObject('Object Repository/registrasi/input_password_password_1'), 'test123')
-
-WebUI.click(findTestObject('Object Repository/registrasi/button_daftar'))
-
-WebUI.click(findTestObject('Object Repository/registrasi/div_Toko berhasil didaftarkananda dapat men_b3a8bd'))
+WebUI.verifyElementText(findTestObject('Homepage/txt_namaToko'), 'Toko Ceria')
 
